@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
 
-/* Set custom variables here */
+:root {
+  --bs-primary: #198754;
+  --bs-primary-rgb: 25,135,84;
+}
 
+
+#Logo {
+  padding-bottom: 8px;
+}
+
+.btn-primary {
+
+}
+#feature {
+
+}
 
 
 
 
 .navbar-brand {
   color: #F6F3ED;
+
 }
 
 body {
@@ -28,7 +43,7 @@ h1, h2, h3 {
 }
 
 #hero .d-flex {
-  height: 800px;
+  height: 70vh;
 }
 
 #cta {
