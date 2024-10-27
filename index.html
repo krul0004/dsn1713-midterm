@@ -16,7 +16,7 @@
 
   <header>
     <div class="bg-primary text-light">
-      <nav class="navbar sticky-top navbar-expand-lg navbar-dark container-lg" aria-label="navbar">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark container-lg px-lg-5" aria-label="navbar">
         <div class="container-fluid ">
           <a class="navbar-brand" href="#"><img class="mb-2" id="Logo" src="images/daily-dish-logo.svg" height="24px"
               alt="logo">Daily Dish</a>
@@ -61,21 +61,23 @@
             <h1>Healthy, Delicious Meals Delivered to Your Door – Ready in Minutes!</h1>
             <p class="lead">With Daily Dish, you can enjoy chef-crafted, wholesome meals without the hassle of meal prep, grocery
               shopping, or cleanup.</p>
-            <button type="button" class="btn btn-lg my-btn">Get Started Today and Save Time!</button>
+            <button type="button" class="btn btn-lg my-btn ">Get Started Today and Save Time!</button>
           </div>
         </div>
       </div>
     </section>
 
     <section>
-      <div class="container-fluid container-lg text-center">
-        <h2>How it Works</h2>
-        <p>Say goodbye to meal planning stress! With Daily Dish, you’ll enjoy chef-crafted meals made from fresh,
-          natural ingredients, delivered right to your door—ready to cook in minutes.</p>
+      <div class="container justify-content-center align-items-center text-center px-5">
+        <h2 class="py-3">How it Works</h2>
+        <p class="py-3">Say goodbye to meal planning stress! With Daily Dish, you’ll enjoy chef-crafted meals made from fresh,
+          natural ingredients, delivered right to your door—ready to cook in minutes.
+        </p>
+
         <div class="row">
           <div class="col-lg">
             <div class="justify-content-center align-items-center">
-              <img src="images/meal.svg" alt="" width="100" height="auto">
+              <img src="images/meal.svg" alt="meal icon" width="100" height="auto">
             </div>
             <h3>Choose Your Menu</h3>
             <p>Explore a wide variety of delicious meal options, tailored to your dietary preferences—whether you're
@@ -83,7 +85,7 @@
           </div>
           <div class="col-lg">
             <div>
-              <img src="images/vegetables.svg" alt="" width="100" height="auto">
+              <img src="images/vegetables.svg" alt="vegetable icon" width="100" height="auto">
             </div>
             <h3>Fresh Ingredients Delivered</h3>
             <p>We source the freshest, highest-quality ingredients and deliver them in perfectly portioned kits. No
@@ -91,26 +93,26 @@
           </div>
           <div class="col-lg">
             <div>
-              <img src="images/plate-fork-spoon.svg" alt="" width="100" height="auto">
+              <img src="images/plate-fork-spoon.svg" alt="plate icon" width="100" height="auto">
             </div>
             <h3>Cook & Enjoy</h3>
             <p>Our easy-to-follow recipes mean you’ll have a mouthwatering, home-cooked meal ready in under 30
               minutes—no kitchen skills required!</p>
           </div>
         </div>
-        <button type="button" class="btn btn-lg my-btn">Pick Your Plan</button>
+        <button type="button" class="btn btn-lg my-btn mt-5">Pick Your Plan</button>
       </div>
     </section>
 
-    <section>
-      <div class="container-fluid container-lg text-center">
-        <h2>The Smarter Way to Eat Healthy</h2>
+    <section class="border-top">
+      <div class="container-fluid container-lg text-center mx-auto px-5">
+        <h2 class="pb-5">The Smarter Way to Eat Healthy</h2>
         <div class="row">
           <div class="col-lg order-last order-lg-first">
             <img class="img-fluid" src="images/family-eating.png" alt="Family enjoying dinner">
           </div>
           <div class="col-lg">
-            <ul>
+            <ul class="list-unstyled">
               <li>
                 <h3>Save Time & Stress</h3>
                 <p>Skip the grocery store and meal prep. Everything you need is delivered—so you can focus on living,
@@ -137,12 +139,12 @@
     <section class="bg-primary">
       <div class="container-fluid container-lg text-center">
         <div class="text-light">
-          <h2>What Our Customers Are Saying</h2>
+          <h2 class="mb-5">What Our Customers Are Saying</h2>
 
           <div class="row">
             <div class="col-lg">
               <figure>
-                <img src="images/sarah.jpg" alt="Profile picture of Sarah" width="100" height="100">
+                <img src="images/sarah.jpg" alt="Profile picture of Sarah" width="100" height="100" class="rounded-circle">
                 <blockquote class="blockquote">
                   <p>"Daily Dish has completely changed how I eat during the week. The meals are so easy, and the
                     flavors are incredible!"</p>
@@ -154,7 +156,7 @@
             </div>
             <div class="col-lg">
               <figure>
-                <img src="images/tom.jpg" alt="Profile picture of Tom" width="100" height="100">
+                <img src="images/tom.jpg" alt="Profile picture of Tom" width="100" height="100" class="rounded-circle">
                 <blockquote class="blockquote">
                   <p>"I love that I can adjust the menu to fit my family’s preferences. Daily Dish makes healthy eating
                     simple for all of us."</p>
@@ -166,7 +168,7 @@
             </div>
             <div class="col-lg">
               <figure>
-                <img src="images/julia.jpg" alt="Profile picture of Julia" width="100" height="100">
+                <img src="images/julia.jpg" alt="Profile picture of Julia" width="100" height="100" class="rounded-circle">
                 <blockquote class="blockquote">
                   <p>"As someone who’s new to cooking, I was nervous at first but Daily Dish makes it so easy."</p>
                 </blockquote>
@@ -184,19 +186,19 @@
 
 
     <section>
-      <div class="container-fluid justify-content-center align-items-center"></div>
-      <div class="text-center container-lg">
-        <h2>Questions? We Have Answers</h2>
+      <div class="container-fluid  align-items-center"></div>
+      <div class="text-center  container-lg">
+        <h2 class="mb-5">Questions? We Have Answers</h2>
 
-        <div class="accordion" id="accordionExample">
+        <div class="accordion w-75 mx-auto" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                aria-expanded="true" aria-controls="collapseOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="false" aria-controls="collapseOne">
                 Can I pause or cancel my subscription?
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show text-start"
+            <div id="collapseOne" class="accordion-collapsed collapse text-start"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 Absolutely! You can pause, modify, or cancel your subscription at any time through your account
@@ -261,7 +263,7 @@
       <div class="d-flex justify-content-center align-items-center text-center">
         <div class="text-light">
           <h2 class="px-5">Join Thousands of Time-Savers – Start Eating Better Today!</h2>
-          <button type="button" class="btn btn-lg my-btn">Sign Up and Get 30% Off Your First Week</button>
+          <button type="button" class="btn btn-lg my-btn mt-5">Sign Up and Get 30% Off Your First Week</button>
         </div>
       </div>
     </section>
@@ -271,10 +273,10 @@
 
 
   <footer>
-    <div class="d-flex align-items-center py-3 bg-primary">
-      <div class="col-lg d-flex align-items-center text-light container-lg ">
+    <div class="container-fluid py-3 bg-primary px-lg-5">
+      <div class="col-lg d-flex align-items-center text-light container-lg justify-content-between">
         <div>
-          <a href="/">
+          <a href="#">
             <img src="images/daily-dish-logo.svg" alt="Logo" width="35" height="24px">
           </a>
           <span>&copy; 2024 Company, Inc</span>

@@ -11,10 +11,9 @@
   --bs-light: #F6F3ED;
 
   --bs-text-light: #f6f3ed;
-  --bs-text-light-rgb:var(--bs-body-bg);
+  --bs-text-light-rgb:var(--bs-light);
 
-  /*--bs-navbar-color: #f6f3ed;
-  --bs-navbar-active-color: #f6f3ed; */
+  --bs-navbar-brand-color:var(--bs-light)
 
 
 }
@@ -25,10 +24,6 @@
   color: var(--bs-light);
 
 }
-
-
-
-
 
 
 
