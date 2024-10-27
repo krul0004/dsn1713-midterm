@@ -3,6 +3,9 @@
 :root {
   --bs-primary: #2e483a;
   --bs-primary-rgb: 46, 72, 58;
+
+  --bs-body-bg: #F6F3ED;
+  --bs-body-bg-rgb:var(--bs-body-bg);
 }
 
 
