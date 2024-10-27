@@ -4,25 +4,35 @@
   --bs-primary: #2e483a;
   --bs-primary-rgb: 46, 72, 58;
 
+
   --bs-body-bg: #F6F3ED;
   --bs-body-bg-rgb:var(--bs-body-bg);
+
+  --bs-light: #F6F3ED;
+
+  --bs-text-light: #f6f3ed;
+  --bs-text-light-rgb:var(--bs-body-bg);
+
+  /*--bs-navbar-color: #f6f3ed;
+  --bs-navbar-active-color: #f6f3ed; */
+
+
+}
+
+.my-btn {
+
+  background-color: var(--bs-primary);
+  color: var(--bs-light);
+
 }
 
 
 
 
-.btn-primary {
-
-}
 
 
 
 
-
-.navbar-brand {
-  color: #F6F3ED;
-
-}
 
 body {
   font-family: "Sarala", sans-serif;
